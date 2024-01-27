@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: 'jdbc:postgresql://localhost:5432/amazon'
+    username: postgres
+    password: 123456
+    hikari:
+      schema: 'ecomerce'
+  flyway:
+    enabled: true
+    locations: classpath:/db/migrations
+    default-schema: ecomerce
+    fail-on-missing-locations: false
+    placeholders:
+      schema: 'ecomerce'
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        enable_lazy_load_no_trans: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+server:
+  port: 8081
+
+
+
+
+
