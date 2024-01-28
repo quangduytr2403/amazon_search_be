@@ -15,7 +15,7 @@ public interface SellerRepository extends JpaRepository<Seller, UUID> {
                     JOIN Product p ON p.sellerId = s.id
                     JOIN CategoryProduct cp ON p.id = cp.productId
                     JOIN Category c ON cp.categoryId = c.id
-                WHERE LOWER(s.name) LIKE LOWER(:#{'%'+ #searchKey + '%'})
+                WHERE LOWER(p.name) LIKE LOWER(:#{'%'+ #searchKey + '%'})
             	    AND (COALESCE(:category, NULL) IS NULL OR c.parentId = (:category))
             	GROUP BY s.id
             	ORDER BY COUNT(p.id) DESC
