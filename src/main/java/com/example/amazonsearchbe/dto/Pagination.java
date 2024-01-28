@@ -1,4 +1,4 @@
-package com.example.amazonsearchbe.model;
+package com.example.amazonsearchbe.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

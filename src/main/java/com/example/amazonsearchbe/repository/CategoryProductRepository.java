@@ -17,4 +17,10 @@ public interface CategoryProductRepository extends JpaRepository<CategoryProduct
                 WHERE p.id = :id
             """)
     List<Category> findCategoryByProductId(UUID id);
+
+    @Query(value = """
+            	SELECT DISTINCT cp.productId from CategoryProduct cp
+                WHERE cp.categoryId IN :categoryIds
+            """)
+    List<UUID> findProductIdByCategoryIdIn(List<UUID> categoryIds);
 }

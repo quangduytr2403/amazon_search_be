@@ -1,0 +1,340 @@
+POST product/_doc/
+{
+"id": "370bc848-c1ea-4bbd-873c-618773468041",
+"name": "INIKA Mineral Sunkissed",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 99.0,
+"salePrice": 80.0,
+"brandId": "55855c5d-2961-4904-a89b-21142c0ba7bc",
+"sellerId": "99dbbd4d-8b03-4be9-88d5-7fc8d2a58b95",
+"image": "https://i.ibb.co/PGRX8wM/powder-1.webp",
+"newProduct": false,
+"rating": 2.0,
+"sold": 12,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "75038edb-019e-468e-a317-cd163dd11a07",
+"name": "Apple iPad Air",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 999.0,
+"salePrice": 949.99,
+"brandId": "fe1ef5cd-e878-43fe-b8b3-fd9d99d02835",
+"sellerId": "6474ff64-6576-4798-905b-19eeab6037b5",
+"image": "https://i.ibb.co/G9ttXCM/ipad-1.webp",
+"newProduct": false,
+"rating": 4.6,
+"sold": 12,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "1f5da368-6dfb-42b3-91f8-eea428ef9c18",
+"name": "Tea Lemon For Fine Hair",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 70.0,
+"salePrice": 55.0,
+"brandId": "a6a99888-2c81-4bb1-b840-66511af2986e",
+"sellerId": "d806bd67-64fd-4aef-be11-290496d40f65",
+"image": "https://i.ibb.co/998PPnW/cosmetics-4.webp",
+"newProduct": false,
+"rating": 4.0,
+"sold": 14,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "735d967d-2016-488e-9126-5fcde71e3ae5",
+"name": "Sony Smart Watch",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 299.0,
+"salePrice": 189.99,
+"brandId": "9ad9c201-21f3-4ed8-8b7c-abc8fc822f21",
+"sellerId": "bdef2928-2335-4c72-8fb5-d52b23c850a2",
+"image": "https://i.ibb.co/sQmZc0x/watch-5.webp",
+"newProduct": true,
+"rating": 4.3,
+"sold": 17,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "d7a8fb56-a5ff-4189-bab7-c4adf4919603",
+"name": "iPhone 14 Pro",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 1399.0,
+"salePrice": 1350.0,
+"brandId": "fe1ef5cd-e878-43fe-b8b3-fd9d99d02835",
+"sellerId": "d806bd67-64fd-4aef-be11-290496d40f65",
+"image": "https://i.ibb.co/gmdpWtD/mobile-5.webp",
+"newProduct": true,
+"rating": 5.0,
+"sold": 17,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "f920afb8-6448-4780-b740-e6feb13e08bb",
+"name": "Headphone with Mic",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 490.0,
+"salePrice": 360.0,
+"brandId": "9ad9c201-21f3-4ed8-8b7c-abc8fc822f21",
+"sellerId": "d806bd67-64fd-4aef-be11-290496d40f65",
+"image": "https://i.ibb.co/xDqmwGW/headphone-8.webp",
+"newProduct": true,
+"rating": 4.0,
+"sold": 19,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "0f051b4b-460b-423f-9dac-d4aed5953033",
+"name": "Antec Air Cooler",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 250.0,
+"salePrice": 170.0,
+"brandId": "780095e0-4e09-4b8d-8adc-c237c8885685",
+"sellerId": "1212f632-dd55-4408-9f2e-eb1620fea36b",
+"image": "https://i.ibb.co/yqndcgs/cpu-5.webp",
+"newProduct": true,
+"rating": 4.6,
+"sold": 21,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "408a00fd-0aca-4022-811e-92c17d3b9120",
+"name": "Fortuna Bangle Three-row",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 600.0,
+"salePrice": 499.0,
+"brandId": "00a75d21-283b-449d-bf2f-018d4ec9f11e",
+"sellerId": "bdef2928-2335-4c72-8fb5-d52b23c850a2",
+"image": "https://i.ibb.co/ThVqy07/bracelet-4.webp",
+"newProduct": false,
+"rating": 4.7,
+"sold": 28,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "2cc86fc6-1b30-4132-b5e1-57f4056c0867",
+"name": "Apple Watch Sport Band",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 470.0,
+"salePrice": 399.99,
+"brandId": "fe1ef5cd-e878-43fe-b8b3-fd9d99d02835",
+"sellerId": "1212f632-dd55-4408-9f2e-eb1620fea36b",
+"image": "https://i.ibb.co/xqQtGPr/watch-1.webp",
+"newProduct": true,
+"rating": 3.6,
+"sold": 28,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "6dc9b28e-1bad-4af2-a7c6-590fd4766ceb",
+"name": "Fortuna Creole Hoop",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 550.0,
+"salePrice": 380.0,
+"brandId": "322ceeca-08bd-4bb8-a50f-bad17a12c536",
+"sellerId": "bdef2928-2335-4c72-8fb5-d52b23c850a2",
+"image": "https://i.ibb.co/wNsPjhC/earring-8.webp",
+"newProduct": false,
+"rating": 4.1,
+"sold": 36,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "df7cbdf1-2247-4817-84e8-0c1bab22a8ef",
+"name": "Gaming Headphone",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 300.0,
+"salePrice": 270.0,
+"brandId": "1bfe0261-24b2-41c9-a77d-b1725db48e4b",
+"sellerId": "6474ff64-6576-4798-905b-19eeab6037b5",
+"image": "https://i.ibb.co/M6nVQ2v/headphone-5.webp",
+"newProduct": false,
+"rating": 0.0,
+"sold": 100,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "47d1b0b9-fe5f-47b2-b29b-9e6d64f53afb",
+"name": "Nike Retro GTS-2",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 450.0,
+"salePrice": 399.99,
+"brandId": "9fa862de-402a-4191-bd57-9b1f246d36da",
+"sellerId": "99dbbd4d-8b03-4be9-88d5-7fc8d2a58b95",
+"image": "https://i.ibb.co/WFWKQWZ/shoes-1.webp",
+"newProduct": true,
+"rating": 4.8,
+"sold": 78,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "a13f9564-69a4-4099-b686-4955484555d3",
+"name": "Lenovo Sports Bluetooth",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 57.0,
+"salePrice": 49.0,
+"brandId": "1bfe0261-24b2-41c9-a77d-b1725db48e4b",
+"sellerId": "6474ff64-6576-4798-905b-19eeab6037b5",
+"image": "https://i.ibb.co/YNLw2QM/blutooth-1.webp",
+"newProduct": false,
+"rating": 4.0,
+"sold": 74,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "5904bb4e-3807-41ce-ac7a-5da927b462f3",
+"name": "Lenovo Wireless Bluetooth",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 99.99,
+"salePrice": 79.99,
+"brandId": "1bfe0261-24b2-41c9-a77d-b1725db48e4b",
+"sellerId": "1212f632-dd55-4408-9f2e-eb1620fea36b",
+"image": "https://i.ibb.co/0XPd7D4/blutooth-4.webp",
+"newProduct": true,
+"rating": 3.7,
+"sold": 63,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "d4700c43-4bfd-4c1a-8997-f89a1033874f",
+"name": "Brand Cosmetic Product",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 160.0,
+"salePrice": 120.0,
+"brandId": "a6a99888-2c81-4bb1-b840-66511af2986e",
+"sellerId": "99dbbd4d-8b03-4be9-88d5-7fc8d2a58b95",
+"image": "https://i.ibb.co/qkspnNy/cosmetics-1.webp",
+"newProduct": false,
+"rating": 2.0,
+"sold": 52,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "e0007aa2-18fa-4b12-9cb1-459c64d9c5aa",
+"name": "DeepCool Air Cooler",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 130.0,
+"salePrice": 110.0,
+"brandId": "780095e0-4e09-4b8d-8adc-c237c8885685",
+"sellerId": "d806bd67-64fd-4aef-be11-290496d40f65",
+"image": "https://i.ibb.co/2d2qBRb/cpu-1.webp",
+"newProduct": false,
+"rating": 2.9,
+"sold": 47,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "433b8aa7-cdc6-48d8-8bb1-4178a9dc0066",
+"name": "Galaxy Android Tablet",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 380.0,
+"salePrice": 340.0,
+"brandId": "ab577e6d-2569-46ca-9221-a3f800c1b156",
+"sellerId": "d806bd67-64fd-4aef-be11-290496d40f65",
+"image": "https://i.ibb.co/RpnnGmx/mobile-1.webp",
+"newProduct": false,
+"rating": 5.0,
+"sold": 45,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "86ea7d39-7f5a-42c4-85c2-44b59a9afeee",
+"name": "Innisfree Face Wash",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 130.0,
+"salePrice": 99.99,
+"brandId": "55855c5d-2961-4904-a89b-21142c0ba7bc",
+"sellerId": "6474ff64-6576-4798-905b-19eeab6037b5",
+"image": "https://i.ibb.co/9n6f275/cream-1.webp",
+"newProduct": false,
+"rating": 4.3,
+"sold": 41,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "01a5e3a8-2c3a-44d2-aa18-4d8689e9dd11",
+"name": "Headphones Wireless",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 150.0,
+"salePrice": 103.2,
+"brandId": "9ad9c201-21f3-4ed8-8b7c-abc8fc822f21",
+"sellerId": "1212f632-dd55-4408-9f2e-eb1620fea36b",
+"image": "https://i.ibb.co/zS3k6QB/headphone-1.webp",
+"newProduct": true,
+"rating": 3.0,
+"sold": 38,
+"createdAt": "2024-01-20 02:57:41.078921",
+"updatedAt": "2024-01-20 02:57:41.078921",
+"deleted": false
+}
+POST product/_doc/
+{
+"id": "0f0cddb9-d99b-4592-8238-537a3fc25e27",
+"name": "Sony Lady Fitness Watch",
+"description": "Lorem ipsum dolor sit amet",
+"originalPrice": 199.00,
+"salePrice": 169.00,
+"brandId": "9ad9c201-21f3-4ed8-8b7c-abc8fc822f21",
+"sellerId": "6474ff64-6576-4798-905b-19eeab6037b5",
+"image": "https://i.ibb.co/w4K4TY2/watch-9.webp",
+"newProduct": false,
+"rating": 3.9,
+"sold": 36,
+"created_at": "2024-01-20 02:57:41.078921",
+"updated_at": "2024-01-20 02:57:41.078921",
+"deleted": false
+}

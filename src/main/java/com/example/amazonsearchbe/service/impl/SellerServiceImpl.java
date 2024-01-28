@@ -1,8 +1,8 @@
 package com.example.amazonsearchbe.service.impl;
 
+import com.example.amazonsearchbe.dto.Pagination;
 import com.example.amazonsearchbe.dto.SellerDto;
 import com.example.amazonsearchbe.entity.Seller;
-import com.example.amazonsearchbe.model.Pagination;
 import com.example.amazonsearchbe.repository.SellerRepository;
 import com.example.amazonsearchbe.service.SellerService;
 import com.example.amazonsearchbe.utils.TimeUtils;

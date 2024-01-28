@@ -1,7 +1,7 @@
 package com.example.amazonsearchbe.controller;
 
 import com.example.amazonsearchbe.dto.BrandDto;
-import com.example.amazonsearchbe.model.SuccessResponse;
+import com.example.amazonsearchbe.dto.SuccessResponse;
 import com.example.amazonsearchbe.service.BrandService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;

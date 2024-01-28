@@ -40,10 +40,6 @@ public class ProductDto {
 
     private List<CategoryDto> categories;
 
-    private long createdAt;
-
-    private long updatedAt;
-
     @JsonIgnore
     private boolean deleted;
 }

@@ -1,8 +1,8 @@
 package com.example.amazonsearchbe.controller;
 
+import com.example.amazonsearchbe.dto.Pagination;
 import com.example.amazonsearchbe.dto.SellerDto;
-import com.example.amazonsearchbe.model.Pagination;
-import com.example.amazonsearchbe.model.SuccessResponse;
+import com.example.amazonsearchbe.dto.SuccessResponse;
 import com.example.amazonsearchbe.service.SellerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -1,7 +1,7 @@
 package com.example.amazonsearchbe.service;
 
+import com.example.amazonsearchbe.dto.Pagination;
 import com.example.amazonsearchbe.dto.SellerDto;
-import com.example.amazonsearchbe.model.Pagination;
 
 import java.util.UUID;
 

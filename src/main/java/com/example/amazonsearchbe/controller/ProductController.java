@@ -1,9 +1,9 @@
 package com.example.amazonsearchbe.controller;
 
 import com.example.amazonsearchbe.annotation.EnumValidate;
+import com.example.amazonsearchbe.dto.Pagination;
 import com.example.amazonsearchbe.dto.ProductDto;
-import com.example.amazonsearchbe.model.Pagination;
-import com.example.amazonsearchbe.model.SuccessResponse;
+import com.example.amazonsearchbe.dto.SuccessResponse;
 import com.example.amazonsearchbe.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
@@ -45,13 +45,22 @@ public class ProductController {
             Integer min,
             @RequestParam(name = "max", required = false)
             Integer max,
+            @RequestParam(name = "isEs", defaultValue = "false")
+            Boolean isEs,
             @RequestParam(name = "orderBy", defaultValue = "rating")
             String orderBy,
             @RequestParam(name = "orderDirection", defaultValue = "DESC")
             @EnumValidate(enumClass = Sort.Direction.class)
             Sort.Direction orderDirection
     ) {
-        return new SuccessResponse<>(productService.findProductWithFilter(pageIndex, pageSize, searchKey,
-                categories, brands, rating, min, max, orderBy, orderDirection));
+        if (Boolean.FALSE.equals(isEs)) {
+            return new SuccessResponse<>(
+                    productService.findProductWithFilter(pageIndex, pageSize, searchKey,
+                            categories, brands, rating, min, max, orderBy, orderDirection));
+        } else {
+            return new SuccessResponse<>(
+                    productService.findProductWithFilterEs(pageIndex, pageSize, searchKey,
+                            categories, brands, rating, min, max, orderBy, orderDirection));
+        }
     }
 }
